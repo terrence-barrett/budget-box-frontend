@@ -1,38 +1,11 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import "./assets/styles/style.css";
+@import "./assets/styles/header.css";
+@import "./assets/styles/landing-page.css";
+@import "./assets/styles/sign-in.css";
+@import "./assets/styles/sign-up.css";
+@import "./assets/styles/tooltip.css";
+@import "./assets/styles/sidebar.css";
+@import "./assets/styles/profile.css";
+@import "./assets/styles/profile-header.css";
+@import "./assets/styles/transaction.css";
+@import "./assets/styles/homepage.css";

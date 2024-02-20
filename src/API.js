@@ -7,7 +7,7 @@ export const LOGIN_USER_KEY = "BUDGET_NOTEBOOK_LOGIN_USER_KEY";
 var baseURL;
 
 // set the baseURL to a local development server
-baseURL = "http://127.0.0.1:8000/";
+baseURL = "https://budget-box-backend.onrender.com/";
 
 // axios instance named 'api' with a specified base URL and headers
 const api = axios.create({
